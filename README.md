@@ -1,10 +1,8 @@
 # Todo List React
-
+## Description
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 ## Demo 
 https://daniel-halasz.github.io/todo-list-react/
-## Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
