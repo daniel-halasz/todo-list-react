@@ -1,0 +1,21 @@
+.section {
+    background-color: #fff;
+    margin: 10px 0;
+}
+
+.section__header {
+    display: grid;
+    grid-template-columns: 2fr auto auto;
+    border-bottom: 2px solid #ddd;
+}
+
+@media(max-width: 767px) {
+    .section__header {
+        grid-template-columns: 1fr;
+    }
+}
+
+.section__headerTitle {
+    padding: 20px;
+    margin: 0;
+}

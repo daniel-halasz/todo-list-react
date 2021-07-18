@@ -1,0 +1,60 @@
+.section__list {
+    list-style: none;
+    padding: 15px;
+    min-height: 50px;
+}
+
+.section__listItem {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+    align-items: center;
+}
+
+.section__listButton {
+    width: 30px;
+    height: 30px;
+    border: none;
+    font-size: 16px;
+    margin: 0 10px;
+    color: #fff;
+    transition: 1s;
+}
+
+.section__listButton--done {
+    background-color: #008000;
+}
+
+.section__listButton--done:hover {
+    background-color: #090;
+}
+
+.section__listButton--done:active {
+    background-color: #00b300;
+}
+
+.section__listButton--remove {
+    background-color: #f00;
+}
+
+.section__listButton--remove:hover {
+    background-color: #c00;
+}
+
+.section__listButton--remove:active {
+    background-color: #f33;
+}
+
+.section__listTask {
+    word-break: break-word;
+    flex-basis: 100%;
+}
+
+.section__listTask--done {
+    text-decoration: line-through;
+}
+
+.section__listTask--hidden {
+    display: none;
+}
