@@ -21,7 +21,7 @@ function App() {
         body={<Form />}
       />
       <Section
-        title="Lista zadan"
+        title="Lista zadań"
         body={<Tasks tasks={tasks} hideDoneTasks={hideDoneTasks} />}
         extraHeaderContent={<Buttons tasks={tasks} hideDoneTasks={hideDoneTasks} />}
       />

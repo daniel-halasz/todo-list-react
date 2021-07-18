@@ -7,10 +7,10 @@ const Buttons = ({ tasks, hideDoneTasks }) => {
 
     return (
         <div className="buttons">
-            <button className="buttons__task">
+            <button className="buttons__button">
                 {hideDoneTasks ? "Pokaż ukończone" : "Ukryj ukończone"}
             </button>
-            <button className="buttons__task"
+            <button className="buttons__button"
                 disabled={tasks.every(({ done }) => done)}
             >
                 Ukończ wszystkie
